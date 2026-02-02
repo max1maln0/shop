@@ -11,6 +11,7 @@ export default function Button({
     const variants = {
         primary: 'text-white bg-blue-950 hover:bg-blue-900',
         admin: ' bg-gray-400 hover:bg-gray-500',
+        look: 'text-blue-850 text-sm'
     };
 
     const styles = variants[variant] || variants.primary;

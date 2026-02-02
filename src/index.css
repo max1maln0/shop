@@ -17,3 +17,9 @@ body {
 .animate-soft-float {
   animation: soft-float 2.5s ease-in-out infinite;
 }
+
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+}

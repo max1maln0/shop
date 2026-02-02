@@ -10,7 +10,7 @@ import Arrow from "../../assets/right-arrow-svgrepo-com.svg";
 export default function Categories() {
     return(
         <>
-        <div className="flex flex-col items-center gap-3">
+        <section className="flex flex-col items-center gap-3">
             <h2 className="section-title">Выберите категорию</h2>
             <p className="text-gray-700">От флагманских смартфонов до полезных аксессуаров — найдите идеальный гаджет для себя</p>
 
@@ -44,7 +44,7 @@ export default function Categories() {
                     <Button variant="look">Смотреть <img src={Arrow} alt="arrow" className="h-5 w-5"/></Button>
                 </Card>
             </div>
-        </div>
+        </section>
         </>
         
     )

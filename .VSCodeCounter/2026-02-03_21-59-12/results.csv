@@ -1,0 +1,37 @@
+"filename", "language", "JSON", "Markdown", "JavaScript JSX", "PostCSS", "JavaScript", "XML", "HTML", "comment", "blank", "total"
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\README.md", "Markdown", 0, 9, 0, 0, 0, 0, 0, 0, 8, 17
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\eslint.config.js", "JavaScript", 0, 0, 0, 0, 28, 0, 0, 0, 2, 30
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\index.html", "HTML", 0, 0, 0, 0, 0, 0, 13, 0, 1, 14
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\package-lock.json", "JSON", 3431, 0, 0, 0, 0, 0, 0, 0, 1, 3432
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\package.json", "JSON", 29, 0, 0, 0, 0, 0, 0, 0, 1, 30
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\public\vite.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\App.jsx", "JavaScript JSX", 0, 0, 10, 0, 0, 0, 0, 0, 1, 11
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\basket-svgrepo-com (1).svg", "XML", 0, 0, 0, 0, 0, 6, 0, 1, 5, 12
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\basket-svgrepo-com.svg", "XML", 0, 0, 0, 0, 0, 4, 0, 0, 0, 4
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\categories\phone.svg", "XML", 0, 0, 0, 0, 0, 33, 0, 1, 1, 35
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\categories\plug.svg", "XML", 0, 0, 0, 0, 0, 11, 0, 1, 1, 13
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\categories\pods.svg", "XML", 0, 0, 0, 0, 0, 34, 0, 1, 0, 35
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\categories\watch.svg", "XML", 0, 0, 0, 0, 0, 85, 0, 1, 84, 170
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\ecology-leaves-svgrepo-com.svg", "XML", 0, 0, 0, 0, 0, 79, 0, 1, 0, 80
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\footer\insta.svg", "XML", 0, 0, 0, 0, 0, 6, 0, 0, 0, 6
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\footer\tg.svg", "XML", 0, 0, 0, 0, 0, 2, 0, 0, 0, 2
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\react.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\right-arrow-svgrepo-com.svg", "XML", 0, 0, 0, 0, 0, 2, 0, 0, 0, 2
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\star-svgrepo-com (1).svg", "XML", 0, 0, 0, 0, 0, 2, 0, 0, 0, 2
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\star-svgrepo-com.svg", "XML", 0, 0, 0, 0, 0, 10, 0, 1, 1, 12
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\assets\trees-svgrepo-com.svg", "XML", 0, 0, 0, 0, 0, 21, 0, 1, 1, 23
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\components\Button.jsx", "JavaScript JSX", 0, 0, 21, 0, 0, 0, 0, 0, 6, 27
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\components\ButtonPop.jsx", "JavaScript JSX", 0, 0, 19, 0, 0, 0, 0, 0, 6, 25
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\components\Footer.jsx", "JavaScript JSX", 0, 0, 55, 0, 0, 0, 0, 0, 8, 63
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\components\Header.jsx", "JavaScript JSX", 0, 0, 20, 0, 0, 0, 0, 0, 7, 27
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\components\ui\Card.jsx", "JavaScript JSX", 0, 0, 34, 0, 0, 0, 0, 0, 5, 39
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\components\ui\CardCat.jsx", "JavaScript JSX", 0, 0, 20, 0, 0, 0, 0, 0, 4, 24
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\data\products.js", "JavaScript", 0, 0, 0, 0, 95, 0, 0, 0, 1, 96
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\index.css", "PostCSS", 0, 0, 0, 23, 0, 0, 0, 0, 8, 31
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\main.jsx", "JavaScript JSX", 0, 0, 9, 0, 0, 0, 0, 0, 2, 11
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\pages\HomePage.jsx", "JavaScript JSX", 0, 0, 14, 0, 0, 0, 0, 0, 2, 16
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\pages\sections\Categories.jsx", "JavaScript JSX", 0, 0, 43, 0, 0, 0, 0, 0, 8, 51
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\pages\sections\Hero.jsx", "JavaScript JSX", 0, 0, 44, 0, 0, 0, 0, 2, 7, 53
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\src\pages\sections\Popular.jsx", "JavaScript JSX", 0, 0, 25, 0, 0, 0, 0, 0, 7, 32
+"c:\Users\maxim\OneDrive\Документы\МаксимУчеба\Проекты\Shop\vite.config.js", "JavaScript", 0, 0, 0, 0, 6, 0, 0, 1, 2, 9
+"Total", "-", 3460, 9, 314, 23, 129, 297, 13, 11, 180, 4436

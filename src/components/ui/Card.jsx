@@ -27,7 +27,7 @@ export default function Card({ product }) {
                 </div>
 
                 <div className="mt-auto flex items-center justify-between pt-3">
-                    <span className="text-2xl font-bold text-blue-800">{product.price} ₽</span>
+                    <span className="text-2xl font-bold text-blue-800">{product.price.toLocaleString()} ₽</span>
                     <Button variant="cards">
                         <img src={Basket} alt="basket" className="h-4 w-4"/> В корзину
                     </Button>

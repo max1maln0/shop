@@ -1,4 +1,10 @@
 import s24Ultra from "../assets/products/s24ultra.jpg";
+import Xiaomi14Pro from "../assets/products/xiaomi14.jpg";
+import SonyWH1000XM5 from "../assets/products/sonywh.jpg";
+import MarshallMajorIV from "../assets/products/marshall.jpg";
+import AppleWatchUltra2 from "../assets/products/applewatch.jpg";
+import SamsungGalaxyWatch6Classic from "../assets/products/samsungwatch.jpg";
+import iphone from '../assets/iphone.jpg'
 
 export const products = [
   {
@@ -16,7 +22,7 @@ export const products = [
   {
     id: 2,
     badge: "-11%",
-    image: s24Ultra,
+    image: Xiaomi14Pro,
     brand: "XIAOMI",
     title: "Xiaomi 14 Pro",
     desc: "Камера Leica, 120W зарядка",
@@ -29,7 +35,7 @@ export const products = [
   {
     id: 3,
     badge: null,
-    image: s24Ultra,
+    image: SonyWH1000XM5,
     brand: "SONY",
     title: "Sony WH-1000XM5",
     desc: "Лучшее шумоподавление",
@@ -41,7 +47,7 @@ export const products = [
   {
     id: 4,
     badge: null,
-    image: s24Ultra,
+    image: MarshallMajorIV,
     brand: "MARSHALL",
     title: "Marshall Major IV",
     desc: "80+ часов, культовый дизайн",
@@ -53,7 +59,7 @@ export const products = [
   {
     id: 5,
     badge: null,
-    image: s24Ultra,
+    image: AppleWatchUltra2,
     brand: "APPLE",
     title: "Apple Watch Ultra 2",
     desc: "Титановый корпус, 36ч работы",
@@ -65,7 +71,7 @@ export const products = [
   {
     id: 6,
     badge: null,
-    image: s24Ultra,
+    image: SamsungGalaxyWatch6Classic,
     brand: "SAMSUNG",
     title: "Samsung Galaxy Watch 6 Classic",
     desc: "Вращающийся безель, Wear OS",
@@ -73,5 +79,18 @@ export const products = [
     reviews: 876,
     price: 39990,
     colors: ["#000", "#d9d9d9", "#36454f"]
+  },
+  {
+    id: 7,
+    badge: null,
+    image: iphone,
+    brand: "APPLE",
+    title: "iPhone 15 Pro",
+    desc: "Титановый корпус, A17 Pro чип",
+    rating: 4.9,
+    reviews: 2847,
+    price: 129990,
+    oldPrice: 149990,
+    colors: ["#151515", "#dcdcdc", "#c2b8a3", "#7a7a7a"]
   }
 ];

@@ -1,4 +1,4 @@
-import Card from "../../components/ui/Card";
+import Card from "../../components/ui/CardCat";
 import Phone from "../../assets/categories/phone.svg";
 import Pods from "../../assets/categories/pods.svg";
 import Watch from "../../assets/categories/watch.svg";

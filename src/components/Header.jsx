@@ -4,7 +4,7 @@ import Basket from '../assets/basket-svgrepo-com.svg';
 
 export default function Header() {
     return(
-        <header className='sticky top-0 z-50 flex justify-between items-center p-4 bg-[#eeeef0]/35 backdrop-blur border-b border-gray-300'>
+        <header className='sticky top-0 z-50 flex justify-between items-center p-4 bg-[#eeeef0]/15 border-b border-gray-300'>
 
             <div className='flex items-center gap-1'>
                 <img src={Logo} alt="Logo" className='w-8 h-8 object-contain -translate-y-[3px]'/>

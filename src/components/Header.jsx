@@ -1,5 +1,6 @@
 import Logo from '../assets/ecology-leaves-svgrepo-com.svg';
 import Basket from '../assets/basket-svgrepo-com.svg';
+import { Link } from "react-router-dom";
 
 
 export default function Header() {
@@ -13,10 +14,12 @@ export default function Header() {
             
 
             <nav className='flex items-center gap-6 text-sm font-medium text-gray-500'>
-                <a href="/" className='relative pb-1 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:origin-left after:bg-black after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 focus-visible:after:scale-x-100 active:after:scale-x-100 hover:text-gray-800'>Главная</a>
-                <a href="/products" className='relative pb-1 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:origin-left after:bg-black after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 focus-visible:after:scale-x-100 active:after:scale-x-100 hover:text-gray-800'>Каталог</a>
-                <a href="/about" className='relative pb-1 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:origin-left after:bg-black after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 focus-visible:after:scale-x-100 active:after:scale-x-100 hover:text-gray-800'>О нас</a>
+                <Link to="/" className='relative pb-1 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:origin-left after:bg-black after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 focus-visible:after:scale-x-100 active:after:scale-x-100 hover:text-gray-800'>Главная</Link>
+                <Link to="/catalog" className='relative pb-1 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:origin-left after:bg-black after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 focus-visible:after:scale-x-100 active:after:scale-x-100 hover:text-gray-800'>Каталог</Link>
+                <Link to="/about" className='relative pb-1 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:origin-left after:bg-black after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 focus-visible:after:scale-x-100 active:after:scale-x-100 hover:text-gray-800'>О нас</Link>
             </nav>
+
+            
 
             <div className='rounded-2xl p-2 hover:bg-gray-300'>
                 <img src={Basket} alt="Basket" className='w-5 h-5 cursor-pointer'/>

@@ -36,8 +36,8 @@ export default function Hero() {
                         </div>
 
                         <div className="flex gap-2">
-                            <Button variant="primary"><img src={Basket} alt="basket" className="h-5 w-5"/> В корзину</Button>
-                            <Button variant="admin">Подробнее <img src={Arrow} alt="arrow" className="h-5 w-5"/></Button>
+                            <Button variant="primary" onClick={() => alert('Добавлено в корзину')}><img src={Basket} alt="basket" className="h-5 w-5"/> В корзину</Button>
+                            <Button variant="admin" onClick={() => alert('Подробнее')}>Подробнее <img src={Arrow} alt="arrow" className="h-5 w-5"/></Button>
                         </div>
                         
                     </div>

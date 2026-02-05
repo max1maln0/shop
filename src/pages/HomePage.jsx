@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+
 import Accordion from "./sections/Accordion";
 import Categories from "./sections/Categories";
 import Hero from "./sections/Hero";
@@ -12,7 +12,7 @@ export default function HomePage() {
             <Categories />
             <Popular />
             <Accordion />
-            <Footer />
+
         </>
     )
 }

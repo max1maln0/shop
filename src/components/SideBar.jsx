@@ -1,7 +1,7 @@
-import Phone from '../assets/categories/phone.svg';
-import Plug from '../assets/categories/plug.svg';
-import Pods from '../assets/categories/pods.svg';
-import Watch from '../assets/categories/watch.svg';
+import Phone from '@assets/categories/phone.svg';
+import Plug from '@assets/categories/plug.svg';
+import Pods from '@assets/categories/pods.svg';
+import Watch from '@assets/categories/watch.svg';
 
 export default function SideBar() {
     return(

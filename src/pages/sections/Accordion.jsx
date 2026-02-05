@@ -1,6 +1,6 @@
-import AccordionItem from '../../components/AccordionItem'
-import { faq } from '../../data/FAQ'
-import Faq from '../../assets/faq-logo.svg'
+import AccordionItem from '@components/AccordionItem'
+import { faq } from '@data/FAQ'
+import Faq from '@assets/faq-logo.svg'
 
 
 export default function Accordion() {

@@ -1,8 +1,8 @@
-import Button from "../../components/Button"
-import Arrow from "../../assets/right-arrow-svgrepo-com.svg"
-import Iphone from "../../assets/iphone.jpg"
-import Basket from '../../assets/basket-svgrepo-com (1).svg';
-import Star from "../../assets/star-svgrepo-com.svg"
+import Button from "@components/Button"
+import Arrow from "@assets/right-arrow-svgrepo-com.svg"
+import Iphone from "@assets/iphone.jpg"
+import Basket from '@assets/basket-svgrepo-com (1).svg';
+import Star from "@assets/star-svgrepo-com.svg"
 
 export default function Hero() {
     return(

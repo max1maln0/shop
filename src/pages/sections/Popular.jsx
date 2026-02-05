@@ -1,6 +1,6 @@
-import ButtonPop from "../../components/ButtonPop";
-import Card from "../../components/ui/Card";
-import { products } from "../../data/products";
+import ButtonPop from "@components/ButtonPop";
+import Card from "@components/ui/Card";
+import { products } from "@data/products";
 
 export default function Popular() {
     return(

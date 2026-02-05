@@ -1,5 +1,5 @@
 import Button from '../ButtonPop'
-import Basket from "../../assets/basket-svgrepo-com (1).svg";
+import Basket from "@assets/basket-svgrepo-com (1).svg";
 
 export default function Card({ product }) {
     return(

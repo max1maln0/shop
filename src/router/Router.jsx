@@ -1,8 +1,8 @@
 import {Routes, Route, Navigate} from "react-router-dom";
 
-import HomePage from '../pages/HomePage';
-import CatalogPage from '../pages/CatalogPage';
-import AboutPage from '../pages/AboutPage';
+import HomePage from '@pages/HomePage';
+import CatalogPage from '@pages/CatalogPage';
+import AboutPage from '@pages/AboutPage';
 
 export default function AppRouter(){
     return(

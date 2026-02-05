@@ -1,5 +1,5 @@
-import Logo from '../assets/ecology-leaves-svgrepo-com.svg';
-import Basket from '../assets/basket-svgrepo-com.svg';
+import Logo from '@assets/ecology-leaves-svgrepo-com.svg';
+import Basket from '@assets/basket-svgrepo-com.svg';
 import { Link } from "react-router-dom";
 
 

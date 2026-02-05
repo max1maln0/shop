@@ -1,7 +1,7 @@
-import Input from "../../components/Input";
-import { products } from "../../data/products";
-import Card from "../../components/ui/Card";
-import SideBar from "../../components/SideBar";
+import Input from "@components/Input";
+import { products } from "@data/products";
+import Card from "@components/ui/Card";
+import SideBar from "@components/SideBar";
 
 export default function CatalogSection() {
     return (

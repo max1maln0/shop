@@ -1,10 +1,10 @@
-import Card from "../../components/ui/CardCat";
-import Phone from "../../assets/categories/phone.svg";
-import Pods from "../../assets/categories/pods.svg";
-import Watch from "../../assets/categories/watch.svg";
-import Plug from "../../assets/categories/plug.svg";
-import Button from "../../components/Button";
-import Arrow from "../../assets/right-arrow-svgrepo-com.svg";
+import Card from "@components/ui/CardCat";
+import Phone from "@assets/categories/phone.svg";
+import Pods from "@assets/categories/pods.svg";
+import Watch from "@assets/categories/watch.svg";
+import Plug from "@assets/categories/plug.svg";
+import Button from "@components/Button";
+import Arrow from "@assets/right-arrow-svgrepo-com.svg";
 
 
 export default function Categories() {

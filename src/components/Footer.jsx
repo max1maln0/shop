@@ -1,6 +1,6 @@
-import Logo from '../assets/ecology-leaves-svgrepo-com.svg';
-import Inst from '../assets/footer/insta.svg';
-import Tg from '../assets/footer/tg.svg';
+import Logo from '@assets/ecology-leaves-svgrepo-com.svg';
+import Inst from '@assets/footer/insta.svg';
+import Tg from '@assets/footer/tg.svg';
 
 export default function Footer() {
     return(

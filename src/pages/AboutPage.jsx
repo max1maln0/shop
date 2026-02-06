@@ -1,5 +1,11 @@
+import Hero from "./sections/About/Hero";
+import History from "./sections/About/History";
+
 export default function AboutPage() {
     return(
-        <h1>About Page</h1>
+        <>
+            <Hero />
+            <History />
+        </>
     )
 }

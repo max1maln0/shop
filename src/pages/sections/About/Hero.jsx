@@ -2,7 +2,7 @@
 
 export default function Hero() {
     return(
-        <section className="flex flex-col items-center p-4 m-20 gap-4 ">
+        <section className="flex flex-col items-center p-4 m-20 gap-4 text-center">
             <h1 className="font-bold text-4xl">
                 О GadgetGrove
             </h1>

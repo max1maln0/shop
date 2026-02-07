@@ -1,8 +1,16 @@
 import Input from './Input';
+import { useCartStore } from '../store/useCartStore.js';
+
 export default function Basket() {
+
+    const {isOpen, closeCart} = useCartStore();
+
+    if(!isOpen) return null;    
+
     return(
-        <div className='fixed inset-0 bg-black/50 z-50 flex justify-end'>
-            <div className='w-full max-w-md bg-white shadow-xl flex flex-col gap-3 transform transition-transform duration-300 p-4'>
+        <div className='fixed inset-0 z-50 flex justify-end'>
+            <div className="absolute inset-0 bg-black/50" onClick={closeCart} />
+            <div className='relative w-full max-w-md bg-white shadow-xl flex flex-col gap-3 transform transition-transform duration-300 p-4'>
                 <div className='flex items-center gap-2'>
                     <img src="" alt="" />
                     <h1 className='font-bold text-xl'>Корзина</h1>

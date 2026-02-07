@@ -1,9 +1,13 @@
 import Logo from '@assets/ecology-leaves-svgrepo-com.svg';
 import Basket from '@assets/basket-svgrepo-com.svg';
 import { Link } from "react-router-dom";
+import { useCartStore } from '../store/useCartStore.js';
 
 
 export default function Header() {
+
+    const openCart = useCartStore((state) => state.openCart);
+
     return(
         <header className='sticky top-0 z-50 flex justify-between items-center p-4 bg-[#eeeef0]/75 border-b border-gray-300 rounded-b-xl'>
 
@@ -21,9 +25,9 @@ export default function Header() {
 
             
 
-            <div className='rounded-2xl p-2 hover:bg-gray-300'>
-                <img src={Basket} alt="Basket" className='w-5 h-5 cursor-pointer'/>
-            </div>
+            <button className='rounded-2xl p-2 hover:bg-gray-300' onClick={openCart}>
+                <img src={Basket} alt="Basket" className='w-5 h-5'/>
+            </button>
             
         </header>
     )

@@ -17,7 +17,7 @@ export default function CatalogSection() {
                 <SideBar />
 
                 <div className="flex flex-col items-start gap-5 ">
-                    <Input value={searchQuery} onChange={setSearchQuery}/>
+                    <Input value={searchQuery} onChange={setSearchQuery} placeholder="Поиск товаров..." />
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                         {filteredProducts.length > 0 ? (
                             filteredProducts.map((item) => (

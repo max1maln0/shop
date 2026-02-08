@@ -15,8 +15,8 @@ export default function Footer() {
                     <p className='text-sm'>Магазин электроники с душой.<br /> Только качественные гаджеты и честные цены.</p>
 
                     <div className='flex gap-3'>
-                        <a href="#" className='bg-gray-400/30 rounded-3xl p-2 hover:bg-blue-400'><img src={Inst} alt="Instagram" className='w-5 h-5'/></a>
-                        <a href="#" className='bg-gray-400/30 rounded-3xl p-2 hover:bg-blue-400'><img src={Tg} alt="Telegram" className='w-5 h-5'/></a>
+                        <a href="https://t.me/simkafaq_bot" rel='noopener noreferrer' className='bg-gray-400/30 rounded-3xl p-2 hover:bg-blue-400'><img src={Inst} alt="Instagram" className='w-5 h-5'/></a>
+                        <a href="https://t.me/simkafaq_bot" rel='noopener noreferrer' className='bg-gray-400/30 rounded-3xl p-2 hover:bg-blue-400'><img src={Tg} alt="Telegram" className='w-5 h-5'/></a>
                     </div>
                 </div>
 

@@ -1,6 +1,7 @@
 import Logo from '@assets/ecology-leaves-svgrepo-com.svg';
 import Inst from '@assets/footer/insta.svg';
 import Tg from '@assets/footer/tg.svg';
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return(
@@ -23,9 +24,9 @@ export default function Footer() {
                 <div className='text-sm'>
                     <h2 className='font-semibold mb-5'>Навигация</h2>
                     <ul className='flex flex-col gap-2.5 font-normal text-gray-700'>
-                        <li><a href="#" className='hover:text-blue-700'>Главная</a></li>
-                        <li><a href="#" className='hover:text-blue-700'>Каталог</a></li>
-                        <li><a href="#" className='hover:text-blue-700'>О нас</a></li>
+                        <li><Link to="/" className='hover:text-blue-700'>Главная</Link></li>
+                        <li><Link to="/catalog" className='hover:text-blue-700'>Каталог</Link></li>
+                        <li><Link to="/about" className='hover:text-blue-700'>О нас</Link></li>
                     </ul>
                 </div>
 

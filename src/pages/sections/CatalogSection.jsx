@@ -3,18 +3,40 @@ import { products } from "@data/products";
 import Card from "@components/ui/Card";
 import SideBar from "@components/SideBar";
 import { useState } from "react";
+import Phone from "@assets/categories/phone.svg";
+import Plug from "@assets/categories/plug.svg";
+import Pods from "@assets/categories/pods.svg";
+import Watch from "@assets/categories/watch.svg";
+
+const catalogCategories = [
+    { id: "all", label: "Все товары", icon: null },
+    { id: "phones", label: "Смартфоны", icon: Phone },
+    { id: "headphones", label: "Наушники", icon: Pods },
+    { id: "watches", label: "Часы", icon: Watch },
+    { id: "accessories", label: "Аксессуары", icon: Plug },
+];
 
 export default function CatalogSection() {
     const [searchQuery, setSearchQuery] = useState("");
+    const [activeCategory, setActiveCategory] = useState("all");
 
-    const filteredProducts = products.filter((item) => item.title.toLowerCase().includes(searchQuery.toLowerCase()));
+    const filteredProducts = products.filter((item) => {
+        const matchesSearch = item.title.toLowerCase().includes(searchQuery.toLowerCase());
+        const matchesCategory = activeCategory === "all" || item.category === activeCategory;
+
+        return matchesSearch && matchesCategory;
+    });
 
     return (
         <section className="m-5 flex flex-col w-full max-w-7xl mx-auto">
             <h1 className="section-title">Каталог товаров</h1>
 
             <div className="flex gap-8 mt-5">
-                <SideBar />
+                <SideBar
+                    categories={catalogCategories}
+                    activeCategory={activeCategory}
+                    onCategoryChange={setActiveCategory}
+                />
 
                 <div className="flex flex-col items-start gap-5 ">
                     <Input value={searchQuery} onChange={setSearchQuery} placeholder="Поиск товаров..." />

@@ -17,7 +17,7 @@ export default function Categories() {
 
             
             <div className="grid grid-cols-1 gap-5 m-6 p-3 sm:grid-cols-2 md:grid-cols-4">
-                <Link to="/catalog">
+                <Link to="/catalog?category=phones">
                     <Card variant="default">
                         <img src={Phone} alt="phone" className="h-30 w-30"/>
                         <h3 className="text-[1.25rem] font-medium">Смартфоны</h3>
@@ -26,7 +26,7 @@ export default function Categories() {
                     </Card>
                 </Link>
 
-                <Link to="/catalog">
+                <Link to="/catalog?category=headphones">
                     <Card variant="default">
                         <img src={Pods} alt="pods" className="h-30 w-30"/>
                         <h3 className="text-[1.25rem] font-medium">Наушники</h3>
@@ -35,7 +35,7 @@ export default function Categories() {
                     </Card>
                 </Link>
 
-                <Link to="/catalog">
+                <Link to="/catalog?category=watches">
                     <Card variant="default">
                         <img src={Watch} alt="watch" className="h-30 w-30"/>
                         <h3 className="text-[1.25rem] font-medium">Умные часы</h3>
@@ -44,7 +44,7 @@ export default function Categories() {
                     </Card>
                 </Link>
 
-                <Link to="/catalog">
+                <Link to="/catalog?category=accessories">
                     <Card variant="default">
                         <img src={Plug} alt="plug" className="h-30 w-30"/>
                         <h3 className="text-[1.25rem] font-medium">Аксессуары</h3>

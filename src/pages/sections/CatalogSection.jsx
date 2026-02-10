@@ -2,7 +2,8 @@ import Input from "@components/Input";
 import { products } from "@data/products";
 import Card from "@components/ui/Card";
 import SideBar from "@components/SideBar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import Phone from "@assets/categories/phone.svg";
 import Plug from "@assets/categories/plug.svg";
 import Pods from "@assets/categories/pods.svg";
@@ -16,9 +17,37 @@ const catalogCategories = [
     { id: "accessories", label: "Аксессуары", icon: Plug },
 ];
 
+const catalogCategoryIds = new Set(catalogCategories.map((category) => category.id));
+
 export default function CatalogSection() {
+    const [searchParams, setSearchParams] = useSearchParams();
     const [searchQuery, setSearchQuery] = useState("");
-    const [activeCategory, setActiveCategory] = useState("all");
+    const [activeCategory, setActiveCategory] = useState(() => {
+        const categoryParam = searchParams.get("category");
+
+        return catalogCategoryIds.has(categoryParam) ? categoryParam : "all";
+    });
+
+    useEffect(() => {
+        const categoryParam = searchParams.get("category");
+        const nextCategory = catalogCategoryIds.has(categoryParam) ? categoryParam : "all";
+
+        setActiveCategory(nextCategory);
+    }, [searchParams]);
+
+    const handleCategoryChange = (categoryId) => {
+        setActiveCategory(categoryId);
+
+        const nextParams = new URLSearchParams(searchParams);
+
+        if (categoryId === "all") {
+            nextParams.delete("category");
+        } else {
+            nextParams.set("category", categoryId);
+        }
+
+        setSearchParams(nextParams, { replace: true });
+    };
 
     const filteredProducts = products.filter((item) => {
         const matchesSearch = item.title.toLowerCase().includes(searchQuery.toLowerCase());
@@ -35,7 +64,7 @@ export default function CatalogSection() {
                 <SideBar
                     categories={catalogCategories}
                     activeCategory={activeCategory}
-                    onCategoryChange={setActiveCategory}
+                    onCategoryChange={handleCategoryChange}
                 />
 
                 <div className="flex flex-col items-start gap-5 ">

@@ -3,6 +3,7 @@ import Arrow from "@assets/right-arrow-svgrepo-com.svg"
 import Iphone from "@assets/iphone.jpg"
 import Basket from '@assets/basket-svgrepo-com (1).svg';
 import Star from "@assets/star-svgrepo-com.svg"
+import { motion } from "framer-motion"
 
 export default function Hero() {
     return(
@@ -12,10 +13,10 @@ export default function Hero() {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-5 m-3">
                     {/* left content */}
                     <div className="flex flex-col gap-10">
-                        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold bg-black/10 shadow-md w-fit">
+                        <motion.div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold bg-black/10 shadow-lg w-fit border-2 border-blue-600">
                             <span className="text-base">⚡</span>
                             <span>Хит продаж</span>
-                        </div>
+                        </motion.div>
                         <h1 className="text-5xl font-semibold">iPhone 15 Pro <br />
 Титановый корпус, <br />A17 Pro чип</h1>
                         <p className="text-gray-700">Самый мощный iPhone с чипом A17 Pro, титановым корпусом и революционной камерой. <br /> Новый уровень мобильной фотографии и производительности.

@@ -1,4 +1,4 @@
-
+import icon from "@assets/faq-logo.svg";
 
 export default function CardWhy({ title, description, icon}) {
     return(

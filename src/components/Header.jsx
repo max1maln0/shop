@@ -9,7 +9,7 @@ export default function Header() {
     const openCart = useCartStore((state) => state.openCart);
 
     return(
-        <header className='sticky top-0 z-50 flex justify-between items-center p-4 bg-[#eeeef0]/75 border-b border-gray-300 rounded-b-xl'>
+        <header className='sticky top-0 z-50 flex justify-between items-center p-4 bg-[#eeeef0]/75 border-b border-gray-300 rounded-b-xl backdrop-blur-sm'>
 
             <div className='flex items-center gap-1'>
                 <img src={Logo} alt="Logo" className='w-8 h-8 object-contain -translate-y-[3px]'/>

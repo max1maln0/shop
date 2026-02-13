@@ -4,8 +4,20 @@ import Iphone from "@assets/iphone.jpg"
 import Basket from '@assets/basket-svgrepo-com (1).svg';
 import Star from "@assets/star-svgrepo-com.svg"
 import { motion } from "framer-motion"
+import { products } from "@data/products";
+import { useCartStore } from "../../store/useCartStore";
 
 export default function Hero() {
+    const addItem = useCartStore((state) => state.addItem);
+    const openCart = useCartStore((state) => state.openCart);
+    const heroProduct = products.find((item) => item.id === 1);
+
+    const handleAddToCart = () => {
+        if (!heroProduct) return;
+        addItem(heroProduct);
+        openCart();
+    };
+
     return(
         <>
             <section className="flex justify-between gap-2 m-5">
@@ -37,7 +49,7 @@ export default function Hero() {
                         </div>
 
                         <div className="flex gap-2">
-                            <Button variant="primary" onClick={() => alert('Добавлено в корзину')}><img src={Basket} alt="basket" className="h-5 w-5"/> В корзину</Button>
+                            <Button variant="primary" onClick={handleAddToCart}><img src={Basket} alt="basket" className="h-5 w-5"/> В корзину</Button>
                             <Button variant="admin" onClick={() => alert('Подробнее')}>Подробнее <img src={Arrow} alt="arrow" className="h-5 w-5"/></Button>
                         </div>
                         

@@ -1,7 +1,16 @@
 import Button from '../ButtonPop'
 import Basket from "@assets/basket-svgrepo-com (1).svg";
+import { useCartStore } from "../../store/useCartStore";
 
 export default function Card({ product }) {
+    const addItem = useCartStore((state) => state.addItem);
+    const openCart = useCartStore((state) => state.openCart);
+
+    const handleAddToCart = () => {
+        addItem(product);
+        openCart();
+    };
+
     return(
         <>
         <div className="flex h-full flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-md cursor-pointer transition-transform duration-300 hover:-translate-y-2">
@@ -28,7 +37,7 @@ export default function Card({ product }) {
 
                 <div className="mt-auto flex items-center justify-between pt-3">
                     <span className="text-2xl font-bold text-blue-800">{product.price.toLocaleString()} ₽</span>
-                    <Button variant="cards" onClick={() => alert('Добавлено в корзину')}>
+                    <Button variant="cards" onClick={handleAddToCart}>
                         <img src={Basket} alt="basket" className="h-4 w-4"/> В корзину
                     </Button>
                 </div>

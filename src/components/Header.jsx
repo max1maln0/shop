@@ -25,7 +25,7 @@ export default function Header() {
 
             
 
-            <button className='rounded-2xl p-2 hover:bg-gray-300' onClick={openCart}>
+            <button className='rounded-2xl p-2 hover:bg-gray-300 cursor-pointer' onClick={openCart}>
                 <img src={Basket} alt="Basket" className='w-5 h-5'/>
             </button>
             
